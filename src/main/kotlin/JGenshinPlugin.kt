@@ -26,8 +26,8 @@ object JGenshinPlugin : KotlinPlugin(
         val eventChannel = GlobalEventChannel.parentScope(this)
         val findCommand = "id"
         eventChannel.subscribeMessages {
-            startsWith(findCommand) {
-                val keyword = message.contentToString().substring(findCommand.length).trim()
+            startsWith(findCommand) { arg ->
+                val keyword = arg.trim()
                 if (keyword.isEmpty()) {
                     return@startsWith
                 }
