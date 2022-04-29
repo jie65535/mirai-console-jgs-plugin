@@ -6,7 +6,7 @@ plugins {
     id("net.mamoe.mirai-console") version "2.10.0"
 }
 
-group = "org.example"
+group = "top.jie65535"
 version = "0.1.0"
 
 repositories {

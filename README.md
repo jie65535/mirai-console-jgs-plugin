@@ -1,5 +1,11 @@
-# mirai-console-plugin-template
+# J Genshin Plugin
+原神查询插件
 
-[Mirai Console](https://github.com/mamoe/mirai-console) 插件模板, 使用 Kotlin + Gradle.
-
-[如何使用](https://github.com/project-mirai/how-to-use-plugin-template)
+```
+> id 游医
+游医的药壶 : 63110
+游医的枭羽 : 63120
+游医的方巾 : 63130
+游医的银莲 : 63140
+游医的怀钟 : 63150
+```
